@@ -1,0 +1,132 @@
+*{box-sizing: border-box;}
+body{
+    margin: 0;
+    background-color: #fff;
+    color: #222328;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #222328;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    width: 1200px;
+    height: 150px;
+    background-color: rgb(16,101,78);
+    display: flex;
+    justify-content: space-between;
+}
+header a img{
+    width: 200px;
+    height: 150px;
+    margin-left: 50px;
+}
+.right-top{
+    padding: 20px;
+    padding-right: 50px;
+    text-align: right;
+}
+.right-top a{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255,139,0);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.loginarea span{
+    vertical-align: bottom;
+}
+.right-bottom{
+    height: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    color: #fff;
+    display: flex;
+}
+.right-bottom a{
+    font-size: 19px;
+    font-weight: bold;
+    color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.tabs{
+    float: right;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: -5px;
+    position: relative;
+    top: 5px;
+}
+.tabs2{
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 17px;
+    position: relative;
+} 
+
+.tabs span,
+.tabs2 span{
+    vertical-align: middle;
+}
+.tabs-on{
+    width: auto;
+    background-color: rgb(13, 76, 59);
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    top: -3px;
+    display: none;
+}
+.tabs-on2{
+    width: 140px;
+    background-color: rgb(13, 76, 59);
+    position: absolute;
+    right: -7px;
+    top: -3px;
+    display: none;
+}
+.tabs-on p,
+.tabs-on2 p{
+    text-align: center;
+    margin-top: 2px;
+}
+.tabs-on ul,
+.tabs-on2 ul{
+    list-style-type: none;
+    padding-left: 15px;
+}
+.tabs-on ul li,
+.tabs-on2 ul li{
+    margin-left: -20px;
+    display: block;
+}
+#mytabs.tabs-on{
+    padding-top: 0;
+}
+
+/* hero */
+
+.hero{
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.slidein{
+    max-width: 3600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.slidein>img{
+    float: left;
+}
